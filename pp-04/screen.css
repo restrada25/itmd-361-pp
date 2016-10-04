@@ -8,3 +8,38 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+
+/*
+  Setting type to a major third modular scale
+*/
+
+html {
+  font-size: 1.125em; /* 18px */
+  line-height: 1.25em; /* 22.5px @ 18px em = 1 gridline */
+  padding: 1.25em 1.25em; /* 22.5px @ 18px em */
+}
+
+h1 {
+  font-size: 2.441em; /* 43.945px @ 18px em */
+  line-height: 1.536em; /* 67.5px @ 43.945px em */
+  padding-bottom: 0.512em; /* 22.5px @ 43.945px em */
+}
+
+h2 {
+  font-size: 1.953em; /* 35.156px @ 18px em */
+  line-height: 1.28em; /* 45px @ 35.156px em */
+  padding-bottom: 0.64em; /* 22.5px @ 35.159px em */
+}
+
+p,
+ul {
+  padding-bottom: 1.25em; /* 22.5px : html line-height */
+}
+
+li {
+  padding-bottom: 0.625em; /* 11.25px */
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
