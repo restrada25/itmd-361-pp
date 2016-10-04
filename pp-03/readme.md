@@ -27,13 +27,13 @@ ems:
 
       html {
         font-size: 1.125em; /* 18 */
-        padding: 0.666em 0.333em 0.666em 0.333em; /* TRBL TB=12px and RL=6px*/
+        padding: 0.666em 0.333em 0.666em 0.333em; /* TRBL TB=12px and RL=6px */
       }
 
 4. Consider the following CSS. Assuming a browser with its base size at 1em = 16px, how big is h2,
 in pixels?
 
-      html {
+      html { 
         font-size: 1.125em; /* 18px */
       }
       figure {
